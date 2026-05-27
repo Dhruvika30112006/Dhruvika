@@ -1,132 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MDA Team Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MDA Team Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-  <!-- HERO SECTION -->
-  <header class="hero">
-    <h1>MDA Team</h1>
-    <p>A passionate team of learners, creators, and innovators building impactful tech solutions.</p>
-  </header>
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <h1 class="logo">MDA</h1>
 
-  <!-- ABOUT TEAM -->
-  <section class="section">
-    <h2>About Us</h2>
-    <p>
-      We believe in teamwork, creativity, and using technology to solve real-world problems while continuously learning and growing together.
-    </p>
-  </section>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-  <!-- TEAM MEMBERS -->
-  <section class="section">
-    <h2>Team Members</h2>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Building Ideas Into Reality</h2>
 
-    <div class="grid">
+            <p>
+                MDA is a collaborative student team focused on
+                innovation, creativity, and impactful project development.
+            </p>
 
-      <div class="card">
-        <div class="avatar"></div>
-        <h3>Dhruvika</h3>
-        <p><b>College:</b> BITS Pilani Hyderabad</p>
-        <p><b>Interest:</b> Open Source Technologies</p>
-        <p><b>Learning:</b> AI, Cloud</p>
-        <p><b>Hobbies:</b> Innovation & Tech</p>
-      </div>
+            <a href="#project" class="btn">Explore Project</a>
+        </div>
+    </section>
 
-      <div class="card">
-        <div class="avatar"></div>
-        <h3>Mahalakshmi R</h3>
-        <p><b>College:</b> BITS Pilani Hyderabad</p>
-        <p><b>Interest:</b> Software & Electronics</p>
-        <p><b>Learning:</b> Full Stack, ML</p>
-        <p><b>Hobbies:</b> Exploring new technologies</p>
-      </div>
+    <!-- About -->
+    <section id="about" class="section">
+        <h2>About Us</h2>
 
-      <div class="card">
-        <div class="avatar"></div>
-        <h3>Jawanth Akhil Etta</h3>
-        <p><b>College:</b> BITS Pilani Hyderabad</p>
-        <p><b>Interest:</b> Web Development & Software</p>
-        <p><b>Learning:</b> Data Science, Backend</p>
-        <p><b>Hobbies:</b> Learning new tools</p>
-      </div>
+        <p>
+            We are a passionate team of students working together
+            to create meaningful technology solutions through
+            teamwork, problem solving, and continuous learning.
+        </p>
+    </section>
 
-    </div>
-  </section>
+    <!-- Project -->
+    <section id="project" class="section dark">
+        <h2>Our Project</h2>
 
-  <!-- GOALS -->
-  <section class="section">
-    <h2>What We Want to Learn</h2>
-    <ul>
-      <li>Full Stack Development</li>
-      <li>AI & Machine Learning</li>
-      <li>Cloud Computing</li>
-      <li>Backend Development</li>
-      <li>Open Source Technologies</li>
-    </ul>
+        <div class="card">
+            <h3>Portfolio Website</h3>
 
-    <h3>Exciting Problems We Like</h3>
-    <p>
-      Automation, intelligent systems, collaboration tools, and impactful real-world solutions.
-    </p>
+            <p>
+                This project showcases our team's portfolio,
+                technical skills, achievements, and collaborative work.
+                The website is built using HTML, CSS, and GitHub Pages.
+            </p>
+        </div>
+    </section>
 
-    <h3>Internship Goals</h3>
-    <p>
-      Strengthen technical skills, improve teamwork, contribute to open source, and build meaningful projects.
-    </p>
-  </section>
+    <!-- Team -->
+    <section id="team" class="section">
+        <h2>Team Members</h2>
 
-  <!-- TEAM WORK STYLE -->
-  <section class="section">
-    <h2>Our Working Style</h2>
-    <ul>
-      <li>Weekly discussions for progress & ideas</li>
-      <li>Collaborative learning and sharing resources</li>
-      <li>Pair programming for better understanding</li>
-      <li>Code reviews for quality improvement</li>
-    </ul>
-  </section>
+        <div class="team-container">
 
-  <!-- SKILLS MAP -->
-  <section class="section">
-    <h2>Skills Map</h2>
+            <div class="team-card">
+                <h3>Dhruvika</h3>
+                <p>Frontend Development</p>
+            </div>
 
-    <div class="skill">
-      <p>Frontend</p>
-      <div class="bar"><div class="fill frontend"></div></div>
-    </div>
+            <div class="team-card">
+                <h3>Team Member 2</h3>
+                <p>UI/UX Design</p>
+            </div>
 
-    <div class="skill">
-      <p>Backend</p>
-      <div class="bar"><div class="fill backend"></div></div>
-    </div>
+            <div class="team-card">
+                <h3>Team Member 3</h3>
+                <p>Project Management</p>
+            </div>
 
-    <div class="skill">
-      <p>Design</p>
-      <div class="bar"><div class="fill design"></div></div>
-    </div>
-  </section>
+        </div>
+    </section>
 
-  <!-- OPEN SOURCE -->
-  <section class="section">
-    <h2>Open Source Interests</h2>
+    <!-- Contact -->
+    <section id="contact" class="section dark">
+        <h2>Contact</h2>
 
-    <p><b>Projects:</b> AI/ML tools, Web development, Linux ecosystems, developer productivity platforms.</p>
+        <p>Email: teammda@example.com</p>
+        <p>GitHub: github.com/your-repository</p>
+    </section>
 
-    <p><b>Communities:</b> GitHub, Mozilla, Linux communities, student developer groups.</p>
-
-    <p><b>Problems:</b> Automation, accessibility, intelligent systems, real-world impact solutions.</p>
-  </section>
-
-  <!-- FOOTER -->
-  <footer>
-    <p>© 2026 MDA Team | Built with ❤️ using GitHub Pages</p>
-  </footer>
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 MDA Team Portfolio. All Rights Reserved.</p>
+    </footer>
 
 </body>
 </html>
